@@ -9,7 +9,7 @@ This guide will focus more on the devon4j specific aspects. We assume that a wor
 == Create the Quarkus application
 
 We start with an empty Quarkus project. You can create the project with Maven on the command line or use the https://code.quarkus.io/[online generator]. The advantage of the online generator is that you have a pre-selection of dependencies to use in your project.
-For starters, let's select the basic dependencies needed to develop a REST service with database connectivity (you can use one of the links in the link:quarkus/quarkus-template.adoc[Quarkus template guide]): __RESTEasy JAX-RS, RESTEasy Jackson, Hibernate ORM, Spring Data JPA API, JDBC Driver (choose the type of database you need), Flyway (if you have database migration schemas), SmallRye Health (optional for Health Monitoring)__
+For starters, let's select the basic dependencies needed to develop a REST service with database connectivity (you can use one of the links in the xref:quarkus/quarkus-template.adoc[Quarkus template guide]): __RESTEasy JAX-RS, RESTEasy Jackson, Hibernate ORM, Spring Data JPA API, JDBC Driver (choose the type of database you need), Flyway (if you have database migration schemas), SmallRye Health (optional for Health Monitoring)__
 
 The list does not include all required dependencies. We will add more dependencies to the project later. So for now generate the application with these dependencies.
 
@@ -123,7 +123,7 @@ As mentioned above, we will use QueryDSL with code generation. For this, add the
 
 To implement the queries, follow the xref:guide-jpa-query.adoc#dynamic-queries[corresponding guide].
 
-Set the following properties in the application.properties file to configure the connection to your database (see also link:quarkus/guide-quarkus-configuration.adoc#database-configuration[here]):
+Set the following properties in the application.properties file to configure the connection to your database (see also xref:quarkus/guide-quarkus-configuration.adoc#database-configuration[here]):
 
 [source, properties]
 ----

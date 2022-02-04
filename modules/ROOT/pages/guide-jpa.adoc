@@ -372,9 +372,9 @@ We strongly recommend these principles:
 
 For details on the configuration of the database connection and database logging of the individual framework, please refer to the respective configuration guide. 
 
-For xref:spring.adoc[spring] see link:spring/guide-spring-configuration.adoc#database-configuration[here].
+For xref:spring.adoc[spring] see xref:spring/guide-spring-configuration.adoc#database-configuration[here].
 
-For xref:quarkus.adoc[quarkus] see link:quarkus/guide-quarkus-configuration.adoc#database-configuration[here].
+For xref:quarkus.adoc[quarkus] see xref:quarkus/guide-quarkus-configuration.adoc#database-configuration[here].
 
 === Database Migration
 See xref:guide-database-migration.adoc[database migration].

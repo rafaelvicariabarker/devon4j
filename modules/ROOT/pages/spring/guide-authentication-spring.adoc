@@ -30,7 +30,7 @@ For further details see https://docs.spring.io/spring-security/site/docs/current
 Further, you need to provide an implementation of the https://docs.spring.io/spring-security/site/docs/4.2.x/apidocs/org/springframework/security/core/userdetails/UserDetailsService.html[UserDetailsService] interface.
 A good starting point comes with our application template.
 
-For authentication via JSON Web Token (JWT), check the link:spring/guide-jwt-spring.adoc[JWT Spring-Starter].
+For authentication via JSON Web Token (JWT), check the xref:spring/guide-jwt-spring.adoc[JWT Spring-Starter].
 
 Mix authentication should be avoided where possible. However, when needed, you can find a solution
 https://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/#multiple-httpsecurity[here].

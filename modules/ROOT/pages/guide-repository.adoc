@@ -115,7 +115,7 @@ NOTE: In Quarkus, native and named queries via the `@Query` annotation are curre
 
 === Integration of Spring Data in devon4j-spring
 
-For Spring applications, devon4j offers a proprietary solution that integrates seamlessly with QueryDSL and uses default methods instead of the fragment approach. A separate guide for this can be found link:spring/guide-devon4j-spring-repository.adoc[here].
+For Spring applications, devon4j offers a proprietary solution that integrates seamlessly with QueryDSL and uses default methods instead of the fragment approach. A separate guide for this can be found xref:spring/guide-devon4j-spring-repository.adoc[here].
 
 == Drawbacks
 Spring Data also has some drawbacks:

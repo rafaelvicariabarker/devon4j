@@ -13,5 +13,5 @@ Create a keypair per environment and keep the private key as a secret only known
 Your apps only need to know the public key in order to validate the JWT.
 Any request without a JWT or with an invalid JWT will be rejected (with status code `401`).
 
-When using xref:spring.adoc[spring] check the link:spring/guide-jwt-spring.adoc[JWT Spring-Starter].
+When using xref:spring.adoc[spring] check the xref:spring/guide-jwt-spring.adoc[JWT Spring-Starter].
 For xref:quarkus.adoc[quarkus] follow https://quarkus.io/guides/security-jwt[Using JWT RBAC].

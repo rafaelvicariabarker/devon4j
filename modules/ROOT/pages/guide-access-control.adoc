@@ -21,9 +21,9 @@ NOTE: Please never implement your own authentication mechanism or credential sto
 
 We recommend using xref:guide-jwt.adoc[JWT] when possible. For KISS, also try to avoid combining multiple authentication mechanisms (form based, basic-auth, SAMLv2, OAuth, etc.) within the same application (for different URLs).
 
-For xref:spring.adoc[spring], check the link:spring/guide-authentication-spring.adoc[Spring Security]
+For xref:spring.adoc[spring], check the xref:spring/guide-authentication-spring.adoc[Spring Security]
 
-For xref:quarkus.adoc[quarkus], check the link:quarkus/guide-authentication-quarkus.adoc[Quarkus Authentication]
+For xref:quarkus.adoc[quarkus], check the xref:quarkus/guide-authentication-quarkus.adoc[Quarkus Authentication]
 
 == Authorization
 
