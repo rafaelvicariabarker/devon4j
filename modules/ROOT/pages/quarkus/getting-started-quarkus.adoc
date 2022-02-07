@@ -7,7 +7,7 @@ This guide will show a quickstart how to create a Quarkus app and will briefly s
 
 To get the first introduction to Quarkus you can read the xref:../quarkus.adoc[Quarkus introduction guide]. To get a short overview where you can find the important Quarkus related guides follow the chapter xref:../quarkus.adoc#guide-to-the-reader[guide to the reader].
 Also, a comparison of the xref:../quarkus.adoc#Pros[advantages] and xref:../quarkus.adoc#cons[disadvantages] of a Quarkus application compared to the alternative framework Spring.
-This comparison will be supported by our xref:performance-comparison-spring-quarkus.adoc[performance comparison between Spring and Quarkus] that shows the lower resource consumption and startup time of Quarkus applications.
+This comparison will be supported by our xref:../performance-comparison-spring-quarkus.adoc[performance comparison between Spring and Quarkus] that shows the lower resource consumption and startup time of Quarkus applications.
 
 
 == Installation of Tools and Dependencies
@@ -63,7 +63,7 @@ Before we start programming you should have a first look at the functionality of
 . https://quarkus.io/guides/getting-started[Getting started guide from Quarkus] + 
 The guide is a good functionality overview, it shows with a simple **Greeting Service** a brief introduction into the concepts like CDI, testing, dev mode, packaging and running the app.  
 . From Spring to Quarkus +
-For experienced Spring developers that have already followed devon4j guidelines, you can read our guide to xref:getting-started-for-spring-developers.adoc[getting started with Quarkus for Spring developer], as it goes more into the differences that can give you a more detailed comparison to Spring.
+For experienced Spring developers that have already followed devon4j guidelines, you can read our guide to xref:./getting-started-for-spring-developers.adoc[getting started with Quarkus for Spring developer], as it goes more into the differences that can give you a more detailed comparison to Spring.
 .. Migrate a Spring app to Quarkus + 
 This guide shows, how to xref:../guide-migration-spring-quarkus.adoc[migrate a Spring application to a Quarkus application with devon4j conventions]. 
 
