@@ -119,7 +119,7 @@ This solution allows a very flexible configuration on the following levels:
 A configuration on a deeper level (e.g. 3) overrides the configuration from a higher level (e.g. 1). 
 
 The configuration on Level 1 and 2 are configured via `application.properties` 
-(see xref:./guide-configuration.adoc[configuration guide]). 
+(see xref:../guide-configuration.adoc[configuration guide]). 
 For Level 1, the prefix `service.client.default.` is used for properties. 
 Further, for level 2, the prefix `service.client.app.«application».` is used where `«application»` is the 
 technical name of the application providing the service. This name will automatically be derived from 
