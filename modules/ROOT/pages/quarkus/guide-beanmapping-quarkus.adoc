@@ -43,7 +43,7 @@ MapStruct provides an annotation processor that also has to be added to the POM.
 </plugin>
 ----
 
-MapStruct takes advantage of generated getters, setters, and constructors from the https://projectlombok.org/[Lombok] library, follow this link:../guide-lombok.adoc#lombok-with-mapstruct[Lombok with Mapstruct guide] to get Lombok with Mapstruct working.  
+MapStruct takes advantage of generated getters, setters, and constructors from the https://projectlombok.org/[Lombok] library, follow this xref:../guide-lombok.adoc#lombok-with-mapstruct[Lombok with Mapstruct guide] to get Lombok with Mapstruct working.  
 
 
 == MapStruct Configuration
