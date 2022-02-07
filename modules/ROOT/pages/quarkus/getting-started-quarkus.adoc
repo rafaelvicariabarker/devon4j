@@ -7,7 +7,7 @@ This guide will show a quickstart how to create a Quarkus app and will briefly s
 
 To get the first introduction to Quarkus you can read the xref:../quarkus.adoc[Quarkus introduction guide]. To get a short overview where you can find the important Quarkus related guides follow the chapter xref:../quarkus.adoc#guide-to-the-reader[guide to the reader].
 Also, a comparison of the xref:../quarkus.adoc#Pros[advantages] and xref:../quarkus.adoc#cons[disadvantages] of a Quarkus application compared to the alternative framework Spring.
-This comparison will be supported by our xref:../performance-comparison-spring-quarkus.adoc[performance comparison between Spring and Quarkus] that shows the lower resource consumption and startup time of Quarkus applications.
+This comparison will be supported by our xref:performance-comparison-spring-quarkus.adoc[performance comparison between Spring and Quarkus] that shows the lower resource consumption and startup time of Quarkus applications.
 
 
 == Installation of Tools and Dependencies
@@ -43,7 +43,7 @@ We will create the project there.
 Quarkus provides multiple ways to bootstrap a project.
 The option to bootstrap a project via the command-line will be shown in the Quarkus getting started guide https://quarkus.io/guides/getting-started#bootstrapping-the-project[Bootstrap the project].
 Quarkus also provides a project builder where you can select some extensions, the build tool for your project, and if you want some starter code.
-This will deliver a project skeleton with the configured project dependencies and also contributes the information to compile the application natively. To get some recommendations on starter templates follow this guide xref:guide-template.adoc[templates recommendations].
+This will deliver a project skeleton with the configured project dependencies and also contributes the information to compile the application natively. To get some recommendations on starter templates follow this guide xref:./guide-template.adoc[templates recommendations].
 
 [NOTE]
 ====
