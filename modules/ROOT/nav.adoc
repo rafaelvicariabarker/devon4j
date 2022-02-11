@@ -45,4 +45,3 @@
 * xref:guide-sql.adoc[SQL]
 * xref:guide-apm.adoc[Application Performance Management]
 
-include::cobigen:modules/ROOT/nav.adoc
