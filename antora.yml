@@ -1,6 +1,6 @@
-name: devonfw
+name: devon4j
 title: Devon4j
 version: '1.0'
-start_page: ROOT:index.adoc
+start_page: ROOT::index.adoc
 nav:
-- modules/ROOT/nav2.adoc
+- modules/ROOT/nav.adoc
