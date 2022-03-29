@@ -1,5 +1,4 @@
 :toc: macro
-toc::[]
 
 == Coding Conventions
 
